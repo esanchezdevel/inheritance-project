@@ -2,6 +2,7 @@ package esanchez.devel;
 
 import esanchez.devel.entity.EntityA;
 import esanchez.devel.entity.EntityB;
+import esanchez.devel.test.CastToSuperclass;
 
 /**
  * 
@@ -37,6 +38,15 @@ public class Main {
 		} else {
 			System.out.println("2- It's a different Entity instance");
 		}
+		
+		
+		/*
+		 * Test3
+		 * Test what happen if we return a EntityC or EntityD and we 
+		 * try to cast to EntityB that is their superclass
+		 */
+		CastToSuperclass castToSuperclass = new CastToSuperclass();
+		castToSuperclass.execute();
 	}
 	
 	
