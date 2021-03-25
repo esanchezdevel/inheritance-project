@@ -3,6 +3,7 @@ package esanchez.devel;
 import esanchez.devel.entity.EntityA;
 import esanchez.devel.entity.EntityB;
 import esanchez.devel.test.CastToSuperclass;
+import esanchez.devel.test.Optionals;
 
 /**
  * 
@@ -47,6 +48,14 @@ public class Main {
 		 */
 		CastToSuperclass castToSuperclass = new CastToSuperclass();
 		castToSuperclass.execute();
+		
+		
+		/*
+		 * Test 4
+		 * Test how Optional Wrapper works in Java8
+		 */
+		Optionals optionals = new Optionals();
+		optionals.execute();
 	}
 	
 	

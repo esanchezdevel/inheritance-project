@@ -16,4 +16,12 @@ public class EntityA {
 		this.param1 = param1;
 		this.param2 = param2;
 	}
+
+	public String getParam1() {
+		return param1;
+	}
+
+	public String getParam2() {
+		return param2;
+	}
 }
