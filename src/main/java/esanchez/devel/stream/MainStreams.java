@@ -7,6 +7,12 @@ import java.util.stream.Collectors;
 
 import esanchez.devel.entity.Person;
 
+/**
+ * Tests with Lists and Streams
+ * 
+ * @author Enrique Sanchez Jordan
+ *
+ */
 public class MainStreams {
 
 	public static void main(String[] args) {

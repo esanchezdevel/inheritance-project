@@ -1,5 +1,11 @@
 package esanchez.devel.entity;
 
+/**
+ * Test Entity that represents a Person
+ * 
+ * @author Enrique Sanchez Jordan
+ *
+ */
 public class Person {
 
 	private String name;
